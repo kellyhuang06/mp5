@@ -80,7 +80,7 @@ export default function ShortenForm() {
         <Typography sx={styles.label}>Custom Alias</Typography>
         <Box sx={styles.aliasRow}>
             <Typography sx={styles.domain}>
-                https://mp5-cs303-url-shortner.vercel.app/
+                https://mp5-ebon.vercel.app/
             </Typography>
             <TextField
                 placeholder="my-link"
