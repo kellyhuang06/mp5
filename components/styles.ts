@@ -103,4 +103,12 @@ export const styles = {
         textAlign: "center",
         mt: 2,
     },
+    label: { mb: 1 },
+        urlInput: {
+            "& .MuiOutlinedInput-root": {
+            backgroundColor: "#e8effc",
+            },
+    },
+    domain: { color: "text.secondary", whiteSpace: "nowrap" },
+    aliasInput: { width: 190 },
 } satisfies Record<string, SxProps<Theme>>;

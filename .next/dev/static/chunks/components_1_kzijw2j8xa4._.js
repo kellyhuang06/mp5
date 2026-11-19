@@ -174,6 +174,21 @@ const styles = {
     backLink: {
         textAlign: "center",
         mt: 2
+    },
+    label: {
+        mb: 1
+    },
+    urlInput: {
+        "& .MuiOutlinedInput-root": {
+            backgroundColor: "#e8effc"
+        }
+    },
+    domain: {
+        color: "text.secondary",
+        whiteSpace: "nowrap"
+    },
+    aliasInput: {
+        width: 190
     }
 };
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {

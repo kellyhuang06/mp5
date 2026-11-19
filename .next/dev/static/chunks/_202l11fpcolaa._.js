@@ -256,52 +256,83 @@ function ShortenForm() {
                 noValidate: true,
                 sx: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$styles$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["styles"].form,
                 children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$TextField$2f$TextField$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                        label: "URL",
-                        placeholder: "https://example.com/a/very/long/link",
-                        value: url,
-                        onChange: (event)=>setUrl(event.target.value),
-                        fullWidth: true
-                    }, void 0, false, {
-                        fileName: "[project]/components/ShortenForm.tsx",
-                        lineNumber: 68,
-                        columnNumber: 17
-                    }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                        sx: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$styles$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["styles"].aliasRow,
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                sx: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$styles$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["styles"].aliasSlash,
-                                children: "/"
+                                sx: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$styles$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["styles"].label,
+                                children: "URL"
                             }, void 0, false, {
                                 fileName: "[project]/components/ShortenForm.tsx",
-                                lineNumber: 77,
-                                columnNumber: 21
+                                lineNumber: 69,
+                                columnNumber: 9
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$TextField$2f$TextField$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                label: "Custom alias",
-                                placeholder: "my-link",
-                                value: alias,
-                                onChange: (event)=>setAlias(event.target.value),
-                                fullWidth: true
+                                placeholder: "https://example.com/a/very/long/link",
+                                value: url,
+                                onChange: (event)=>setUrl(event.target.value),
+                                fullWidth: true,
+                                sx: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$styles$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["styles"].urlInput
                             }, void 0, false, {
                                 fileName: "[project]/components/ShortenForm.tsx",
-                                lineNumber: 78,
-                                columnNumber: 21
+                                lineNumber: 70,
+                                columnNumber: 9
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/ShortenForm.tsx",
-                        lineNumber: 76,
-                        columnNumber: 17
+                        lineNumber: 68,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                sx: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$styles$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["styles"].label,
+                                children: "Custom Alias"
+                            }, void 0, false, {
+                                fileName: "[project]/components/ShortenForm.tsx",
+                                lineNumber: 80,
+                                columnNumber: 9
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                sx: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$styles$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["styles"].aliasRow,
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                        sx: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$styles$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["styles"].domain,
+                                        children: "https://mp5-cs303-url-shortner.vercel.app/"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/ShortenForm.tsx",
+                                        lineNumber: 82,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$TextField$2f$TextField$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                        placeholder: "my-link",
+                                        value: alias,
+                                        onChange: (event)=>setAlias(event.target.value),
+                                        sx: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$styles$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["styles"].aliasInput
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/ShortenForm.tsx",
+                                        lineNumber: 85,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/components/ShortenForm.tsx",
+                                lineNumber: 81,
+                                columnNumber: 9
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/components/ShortenForm.tsx",
+                        lineNumber: 79,
+                        columnNumber: 5
                     }, this),
                     error && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Alert$2f$Alert$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                         severity: "error",
                         children: error
                     }, void 0, false, {
                         fileName: "[project]/components/ShortenForm.tsx",
-                        lineNumber: 87,
-                        columnNumber: 27
+                        lineNumber: 94,
+                        columnNumber: 15
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Button$2f$Button$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                         type: "submit",
@@ -311,20 +342,20 @@ function ShortenForm() {
                         children: loading ? "Shortening..." : "Shorten"
                     }, void 0, false, {
                         fileName: "[project]/components/ShortenForm.tsx",
-                        lineNumber: 89,
-                        columnNumber: 17
+                        lineNumber: 96,
+                        columnNumber: 5
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/ShortenForm.tsx",
                 lineNumber: 67,
-                columnNumber: 13
+                columnNumber: 9
             }, this),
             shortUrl && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ShortUrlResult$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                 shortUrl: shortUrl
             }, void 0, false, {
                 fileName: "[project]/components/ShortenForm.tsx",
-                lineNumber: 99,
+                lineNumber: 105,
                 columnNumber: 26
             }, this)
         ]
@@ -455,6 +486,21 @@ const styles = {
     backLink: {
         textAlign: "center",
         mt: 2
+    },
+    label: {
+        mb: 1
+    },
+    urlInput: {
+        "& .MuiOutlinedInput-root": {
+            backgroundColor: "#e8effc"
+        }
+    },
+    domain: {
+        color: "text.secondary",
+        whiteSpace: "nowrap"
+    },
+    aliasInput: {
+        width: 190
     }
 };
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
